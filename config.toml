@@ -1,4 +1,4 @@
-baseurl = "http://developer-faq.netlify.com"
+baseurl = "https://developer-faq.netlify.com/"
 languageCode = "de"
 title = "Developer FAQ"
 theme = "hugo-material-docs"
