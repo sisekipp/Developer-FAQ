@@ -50,15 +50,15 @@ googleAnalytics = ""
 	url    = "videos/"
 	weight = 10
 
-[[menu.main]]
-	name   = "Artikel"
-	url    = "artikel/"
-	weight = 20
+#[[menu.main]]
+#	name   = "Artikel"
+#	url    = "artikel/"
+#	weight = 20
 
-[[menu.main]]
-	name   = "Tutorials"
-	url    = "tutorials/"
-	weight = 30
+#[[menu.main]]
+#	name   = "Tutorials"
+#	url    = "tutorials/"
+#	weight = 30
 
 
 
