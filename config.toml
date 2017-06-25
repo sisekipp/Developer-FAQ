@@ -1,0 +1,69 @@
+baseurl = "http://developer-faq.netlify.com"
+languageCode = "de"
+title = "Developer FAQ"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Sebastian Kipping"
+	description = "Developer FAQ"
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = ""
+	repo_url = ""
+
+	version = ""
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "teal"
+    	accent  = "red"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "sisekipp"
+	github  = "sisekipp"
+	email   = "kipping.sebastian@gmail.com"
+
+
+[[menu.main]]
+	name   = "Videos"
+	url    = "videos/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Artikel"
+	url    = "artikel/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Tutorials"
+	url    = "tutorials/"
+	weight = 30
+
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
